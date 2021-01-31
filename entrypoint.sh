@@ -3,7 +3,7 @@
 set -e
 
 function main() {
-  http 
+  http \
     \ --ignore-stdin 
     \ --verbose POST 
     \ "https://europe-west3-microops.cloudfunctions.net/microops"
