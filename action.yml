@@ -1,0 +1,5 @@
+name: 'Deploy'
+description: 'Trigger google cloud deploy function'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
